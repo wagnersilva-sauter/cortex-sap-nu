@@ -1,10 +1,10 @@
 constant: CONNECTION_NAME {
-  value: "bq-cimed-cortex"
+  value: "bq-nubank-cortex"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "poc-sap-cortex-401614"
+  value: "iteng-itsystems-cortexai"
   export: override_required
 }
 
@@ -14,6 +14,6 @@ constant: REPORTING_DATASET {
 }
 
 constant: CLIENT {
-  value: "500"
+  value: "103"
   export: override_required
 }
