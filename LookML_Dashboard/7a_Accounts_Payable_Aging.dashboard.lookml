@@ -326,11 +326,11 @@
     title: Target Currency
     type: field_filter
     default_value: BRL
-    allow_multiple_values: true
+    allow_multiple_values: false
     required: true
     ui_config:
-      type: dropdown_menu
-      display: inline
+      type: tag_list
+      display: popover
     model: cortex_sap_operational
     explore: accounts_payable_v2
     listens_to_filters: []
