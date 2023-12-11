@@ -623,7 +623,7 @@
   - name: Target Currency
     title: Target Currency
     type: field_filter
-    default_value: 'BRL'
+    default_value: ''
     allow_multiple_values: true
     required: false
     ui_config:
@@ -634,7 +634,7 @@
       - USD
     model: cortex_sap_operational
     explore: accounts_payable_v2
-    listens_to_filters: [Target Currency]
+    listens_to_filters: []
     field: accounts_payable_v2.target_currency_tcurr
   - name: Company Name
     title: Company Name
