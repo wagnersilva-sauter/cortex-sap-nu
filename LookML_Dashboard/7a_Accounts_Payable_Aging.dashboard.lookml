@@ -325,7 +325,7 @@
   - name: Target Currency
     title: Target Currency
     type: field_filter
-    default_value: ''
+    default_value: BRL
     allow_multiple_values: true
     required: false
     ui_config:
