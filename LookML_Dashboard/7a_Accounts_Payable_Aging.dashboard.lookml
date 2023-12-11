@@ -207,7 +207,7 @@
       accounts_payable_v2.number_of_line_item_within_accounting_document_buzei: '001'
       accounts_payable_v2.account_type_koart: K
     sorts: [accounts_payable_v2.company_code_bukrs desc]
-    limit: 0
+    limit: 500
     column_limit: 50
     show_view_names: false
     show_row_numbers: true
@@ -331,6 +331,9 @@
     ui_config:
       type: tag_list
       display: popover
+      options:
+      - BRL
+      - USD
     model: cortex_sap_operational
     explore: accounts_payable_v2
     listens_to_filters: [Target Currency]

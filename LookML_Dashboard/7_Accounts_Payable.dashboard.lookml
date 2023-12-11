@@ -623,12 +623,15 @@
   - name: Target Currency
     title: Target Currency
     type: field_filter
-    default_value: BRL
+    default_value: 'BRL'
     allow_multiple_values: true
-    required: true
+    required: false
     ui_config:
-      type: dropdown_menu
-      display: inline
+      type: tag_list
+      display: popover
+      options:
+      - BRL
+      - USD
     model: cortex_sap_operational
     explore: accounts_payable_v2
     listens_to_filters: [Target Currency]
