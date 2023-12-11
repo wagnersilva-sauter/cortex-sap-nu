@@ -207,7 +207,7 @@
       accounts_payable_v2.number_of_line_item_within_accounting_document_buzei: '001'
       accounts_payable_v2.account_type_koart: K
     sorts: [accounts_payable_v2.company_code_bukrs desc]
-    limit: 500
+    limit: 0
     column_limit: 50
     show_view_names: false
     show_row_numbers: true
@@ -325,7 +325,7 @@
   - name: Target Currency
     title: Target Currency
     type: field_filter
-    default_value: ''
+    default_value: 'BRL'
     allow_multiple_values: true
     required: false
     ui_config:
