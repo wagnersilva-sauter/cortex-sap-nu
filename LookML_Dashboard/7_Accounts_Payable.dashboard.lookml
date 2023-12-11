@@ -631,7 +631,7 @@
       display: popover
     model: cortex_sap_operational
     explore: accounts_payable_v2
-    listens_to_filters: []
+    listens_to_filters: [Target Currency]
     field: accounts_payable_v2.target_currency_tcurr
   - name: Company Name
     title: Company Name
