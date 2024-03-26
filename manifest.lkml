@@ -1,10 +1,10 @@
 constant: CONNECTION_NAME {
-  value: "bq-nubank-cortex"
+  value: "poc_piracanjuba"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "iteng-itsystems-cortexai"
+  value: "sauter-poc-piracanjuba"
   export: override_required
 }
 
@@ -14,6 +14,6 @@ constant: REPORTING_DATASET {
 }
 
 constant: CLIENT {
-  value: "103"
+  value: "200"
   export: override_required
 }
