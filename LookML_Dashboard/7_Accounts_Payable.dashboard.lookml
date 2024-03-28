@@ -73,7 +73,7 @@
       Company Name: accounts_payable_v2.company_text_butxt
     row: 2
     col: 0
-    width: 8
+    width: 12
     height: 2
   - title: Past Due Amount
     name: Past Due Amount
@@ -105,7 +105,7 @@
       Company Name: accounts_payable_v2.company_text_butxt
     row: 2
     col: 8
-    width: 16
+    width: 12
     height: 2
   - title: Accounts Payable by Vendor
     name: Accounts Payable by Vendor
