@@ -105,36 +105,8 @@
       Company Name: accounts_payable_v2.company_text_butxt
     row: 2
     col: 8
-    width: 8
-    height: 2
-  - title: Accounts Payable by Vendor
-    name: Accounts Payable by Vendor
-    model: cortex_sap_operational
-    explore: accounts_payable_v2
-    type: looker_pie
-    fields: [accounts_payable_v2.sum_overdue_amount_conv_drill_2, accounts_payable_v2.name1]
-    filters: {}
-    sorts: [accounts_payable_v2.sum_overdue_amount_conv_drill_2 desc 0]
-    limit: 5
-    column_limit: 50
-    value_labels: legend
-    label_type: labPer
-    inner_radius: 45
-    series_types: {}
-    show_value_labels: true
-    font_size: 12
-    defaults_version: 1
-    note_state: collapsed
-    note_display: hover
-    note_text: Vendors with the highest balances due as of today
-    listen:
-      Target Currency: accounts_payable_v2.target_currency_tcurr
-      Vendor Name: accounts_payable_v2.name1
-      Company Name: accounts_payable_v2.company_text_butxt
-    row: 12
-    col: 0
     width: 12
-    height: 5
+    height: 2
   - title: Upcoming Payments and Penalties
     name: Upcoming Payments and Penalties
     model: cortex_sap_operational
