@@ -104,7 +104,7 @@
       Vendor Name: accounts_payable_v2.name1
       Company Name: accounts_payable_v2.company_text_butxt
     row: 2
-    col: 8
+    col: 12
     width: 12
     height: 2
   - title: Accounts Payable by Vendor
