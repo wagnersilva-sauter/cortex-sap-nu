@@ -350,7 +350,7 @@
       Company Name: accounts_payable_v2.company_text_butxt
     row: 5
     col: 8
-    width: 8
+    width: 24
     height: 6
   - title: Accounts Payable Turnover
     name: Accounts Payable Turnover
